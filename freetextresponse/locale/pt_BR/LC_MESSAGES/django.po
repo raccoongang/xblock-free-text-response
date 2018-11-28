@@ -1,0 +1,242 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2018-11-28 10:31+0200\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;\n"
+
+#: freetextresponse/freetextresponse.py:89
+#: build/lib.linux-x86_64-2.7/freetextresponse/freetextresponse.py:89
+msgid "Display Correctness?"
+msgstr ""
+
+#: freetextresponse/freetextresponse.py:91
+#: build/lib.linux-x86_64-2.7/freetextresponse/freetextresponse.py:91
+msgid ""
+"This is a flag that indicates if the indicator icon should be displayed "
+"after a student enters their response"
+msgstr ""
+
+#: freetextresponse/freetextresponse.py:99
+#: build/lib.linux-x86_64-2.7/freetextresponse/freetextresponse.py:99
+msgid "Display Other Student Responses"
+msgstr ""
+
+#: freetextresponse/freetextresponse.py:101
+#: build/lib.linux-x86_64-2.7/freetextresponse/freetextresponse.py:101
+msgid ""
+"This will display other student responses to the student after they submit "
+"their response."
+msgstr ""
+
+#: freetextresponse/freetextresponse.py:110
+#: build/lib.linux-x86_64-2.7/freetextresponse/freetextresponse.py:110
+msgid "System selected answers to give to students"
+msgstr ""
+
+#: freetextresponse/freetextresponse.py:113
+#: build/lib.linux-x86_64-2.7/freetextresponse/freetextresponse.py:113
+msgid "Display Name"
+msgstr "Nome de exibição"
+
+#: freetextresponse/freetextresponse.py:115
+#: build/lib.linux-x86_64-2.7/freetextresponse/freetextresponse.py:115
+msgid "This is the title for this question type"
+msgstr ""
+
+#: freetextresponse/freetextresponse.py:117
+msgid "Free-text Response"
+msgstr ""
+
+#: freetextresponse/freetextresponse.py:121
+#: build/lib.linux-x86_64-2.7/freetextresponse/freetextresponse.py:121
+msgid "Full-Credit Key Phrases"
+msgstr ""
+
+#: freetextresponse/freetextresponse.py:123
+#: build/lib.linux-x86_64-2.7/freetextresponse/freetextresponse.py:123
+msgid ""
+"This is a list of words or phrases, one of which must be present in order "
+"for the student's answer to receive full credit"
+msgstr ""
+
+#: freetextresponse/freetextresponse.py:131
+#: build/lib.linux-x86_64-2.7/freetextresponse/freetextresponse.py:131
+msgid "Half-Credit Key Phrases"
+msgstr ""
+
+#: freetextresponse/freetextresponse.py:133
+#: build/lib.linux-x86_64-2.7/freetextresponse/freetextresponse.py:133
+msgid ""
+"This is a list of words or phrases, one of which must be present in order "
+"for the student's answer to receive half credit"
+msgstr ""
+
+#: freetextresponse/freetextresponse.py:141
+#: build/lib.linux-x86_64-2.7/freetextresponse/freetextresponse.py:141
+msgid "Maximum Number of Attempts"
+msgstr "Máximo de tentativas"
+
+#: freetextresponse/freetextresponse.py:143
+#: build/lib.linux-x86_64-2.7/freetextresponse/freetextresponse.py:143
+msgid ""
+"This is the maximum number of times a student is allowed to attempt the "
+"problem"
+msgstr ""
+
+#: freetextresponse/freetextresponse.py:151
+#: build/lib.linux-x86_64-2.7/freetextresponse/freetextresponse.py:151
+msgid "Maximum Word Count"
+msgstr "Limite máximo de palavras"
+
+#: freetextresponse/freetextresponse.py:153
+#: build/lib.linux-x86_64-2.7/freetextresponse/freetextresponse.py:153
+msgid "This is the maximum number of words allowed for this question"
+msgstr ""
+
+#: freetextresponse/freetextresponse.py:161
+#: build/lib.linux-x86_64-2.7/freetextresponse/freetextresponse.py:161
+msgid "Minimum Word Count"
+msgstr ""
+
+#: freetextresponse/freetextresponse.py:163
+#: build/lib.linux-x86_64-2.7/freetextresponse/freetextresponse.py:163
+msgid "This is the minimum number of words required for this question"
+msgstr ""
+
+#: freetextresponse/freetextresponse.py:171
+#: build/lib.linux-x86_64-2.7/freetextresponse/freetextresponse.py:171
+msgid "Prompt"
+msgstr "Tema"
+
+#: freetextresponse/freetextresponse.py:173
+#: build/lib.linux-x86_64-2.7/freetextresponse/freetextresponse.py:173
+msgid "This is the prompt students will see when asked to enter their response"
+msgstr ""
+
+#: freetextresponse/freetextresponse.py:176
+msgid "Please enter your response within this text area"
+msgstr ""
+
+#: freetextresponse/freetextresponse.py:181
+#: build/lib.linux-x86_64-2.7/freetextresponse/freetextresponse.py:181
+msgid "Submission Received Message"
+msgstr ""
+
+#: freetextresponse/freetextresponse.py:183
+#: build/lib.linux-x86_64-2.7/freetextresponse/freetextresponse.py:183
+msgid "This is the message students will see upon submitting their response"
+msgstr ""
+
+#: freetextresponse/freetextresponse.py:186
+msgid "Your submission has been received"
+msgstr ""
+
+#: freetextresponse/freetextresponse.py:190
+#: build/lib.linux-x86_64-2.7/freetextresponse/freetextresponse.py:190
+msgid "Weight"
+msgstr "Peso"
+
+#: freetextresponse/freetextresponse.py:192
+#: build/lib.linux-x86_64-2.7/freetextresponse/freetextresponse.py:192
+msgid "This assigns an integer value representing the weight of this problem"
+msgstr ""
+
+#: freetextresponse/freetextresponse.py:200
+#: build/lib.linux-x86_64-2.7/freetextresponse/freetextresponse.py:200
+msgid "Draft Received Message"
+msgstr ""
+
+#: freetextresponse/freetextresponse.py:202
+#: build/lib.linux-x86_64-2.7/freetextresponse/freetextresponse.py:202
+msgid "This is the message students will see upon submitting a draft response"
+msgstr ""
+
+#: freetextresponse/freetextresponse.py:206
+msgid ""
+"Your answers have been saved but not graded. Click \"Submit\" to grade them."
+msgstr ""
+
+#: freetextresponse/freetextresponse.py:394
+#: build/lib.linux-x86_64-2.7/freetextresponse/freetextresponse.py:394
+#, python-brace-format
+msgid "Your response must be between {min} and {max} word."
+msgid_plural "Your response must be between {min} and {max} words."
+msgstr[0] ""
+msgstr[1] ""
+
+#: freetextresponse/freetextresponse.py:416
+#: build/lib.linux-x86_64-2.7/freetextresponse/freetextresponse.py:416
+#, python-brace-format
+msgid "Invalid Word Count. {word_count_message}"
+msgstr ""
+
+#: freetextresponse/freetextresponse.py:469
+#: build/lib.linux-x86_64-2.7/freetextresponse/freetextresponse.py:469
+#, python-brace-format
+msgid "{weight} point possible"
+msgid_plural "{weight} points possible"
+msgstr[0] ""
+msgstr[1] ""
+
+#: freetextresponse/freetextresponse.py:482
+#: build/lib.linux-x86_64-2.7/freetextresponse/freetextresponse.py:482
+#, python-brace-format
+msgid "{score_string}/{weight} point"
+msgid_plural "{score_string}/{weight} points"
+msgstr[0] "{score_string}/{weight} ponto"
+msgstr[1] "{score_string}/{weight} pontos"
+
+#: freetextresponse/freetextresponse.py:546
+#: build/lib.linux-x86_64-2.7/freetextresponse/freetextresponse.py:546
+#, python-brace-format
+msgid "You have used {count_attempts} of {max_attempts} submission"
+msgid_plural "You have used {count_attempts} of {max_attempts} submissions"
+msgstr[0] ""
+msgstr[1] ""
+
+#: freetextresponse/templates/freetextresponse_view.html:22
+#: freetextresponse/templates/freetextresponse_view.html:25
+#: build/lib.linux-x86_64-2.7/freetextresponse/templates/freetextresponse_view.html:22
+#: build/lib.linux-x86_64-2.7/freetextresponse/templates/freetextresponse_view.html:25
+msgid "Checking..."
+msgstr ""
+
+#: freetextresponse/templates/freetextresponse_view.html:22
+#: freetextresponse/templates/freetextresponse_view.html:23
+#: build/lib.linux-x86_64-2.7/freetextresponse/templates/freetextresponse_view.html:22
+#: build/lib.linux-x86_64-2.7/freetextresponse/templates/freetextresponse_view.html:23
+msgid "Submit"
+msgstr "Enviar"
+
+#: freetextresponse/templates/freetextresponse_view.html:25
+#: freetextresponse/templates/freetextresponse_view.html:26
+#: build/lib.linux-x86_64-2.7/freetextresponse/templates/freetextresponse_view.html:25
+#: build/lib.linux-x86_64-2.7/freetextresponse/templates/freetextresponse_view.html:26
+msgid "Save"
+msgstr "Salvar"
+
+#: freetextresponse/templates/freetextresponse_view.html:34
+msgid "Hide"
+msgstr "Ocultar"
+
+#: freetextresponse/templates/freetextresponse_view.html:35
+msgid "Submissions by others"
+msgstr ""
+
+#: freetextresponse/templates/freetextresponse_view.html:37
+msgid "No responses to show at this time"
+msgstr ""

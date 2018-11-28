@@ -4,8 +4,8 @@ This is the core logic for the Free-text Response XBlock
 from enum import Enum
 import pkg_resources
 from django.db import IntegrityError
+from django.template import Template
 from django.template.context import Context
-from django.template.loader import get_template
 from django.utils.translation import ungettext
 from django.utils.translation import ugettext_lazy as _
 from django.utils.translation import ugettext
@@ -114,7 +114,7 @@ class FreeTextResponse(
         help=_(
             'This is the title for this question type'
         ),
-        default='Free-text Response',
+        default=_('Free-text Response'),
         scope=Scope.settings,
     )
     fullcredit_keyphrases = List(
@@ -173,7 +173,7 @@ class FreeTextResponse(
             'This is the prompt students will see when '
             'asked to enter their response'
         ),
-        default='Please enter your response within this text area',
+        default=_('Please enter your response within this text area'),
         scope=Scope.settings,
         multiline_editor=True,
     )
@@ -183,7 +183,7 @@ class FreeTextResponse(
             'This is the message students will see upon '
             'submitting their response'
         ),
-        default='Your submission has been received',
+        default=_('Your submission has been received'),
         scope=Scope.settings,
     )
     weight = Integer(
@@ -202,7 +202,7 @@ class FreeTextResponse(
             'This is the message students will see upon '
             'submitting a draft response'
         ),
-        default=(
+        default=_(
             'Your answers have been saved but not graded. '
             'Click "Submit" to grade them.'
         ),
@@ -297,7 +297,24 @@ class FreeTextResponse(
                 'other_responses': [],
             }
         )
-        template = get_template('freetextresponse_view.html')
+
+        # Util function
+        def load_template(self, resource_path):
+            """
+            Gets the template
+
+            Arguments:
+                resource_path (str): Path to template.
+
+            Returns:
+                object: Template object
+            """
+            resource_content = pkg_resources.resource_string(__name__, resource_path)
+            resource_content.decode("utf8")
+            return Template(resource_content)
+
+        template = load_template(self, 'templates/freetextresponse_view.html')
+
         fragment = self.build_fragment(
             template,
             context,
