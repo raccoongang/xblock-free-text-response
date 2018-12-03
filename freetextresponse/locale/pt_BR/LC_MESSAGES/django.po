@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2018-11-28 10:31+0200\n"
+"POT-Creation-Date: 2018-11-29 17:12+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -25,18 +25,19 @@ msgstr ""
 
 #: freetextresponse/freetextresponse.py:91
 #: build/lib.linux-x86_64-2.7/freetextresponse/freetextresponse.py:91
+
 msgid ""
 "This is a flag that indicates if the indicator icon should be displayed "
 "after a student enters their response"
 msgstr ""
 
-#: freetextresponse/freetextresponse.py:99
 #: build/lib.linux-x86_64-2.7/freetextresponse/freetextresponse.py:99
+#: freetextresponse/freetextresponse.py:99
 msgid "Display Other Student Responses"
 msgstr ""
 
-#: freetextresponse/freetextresponse.py:101
 #: build/lib.linux-x86_64-2.7/freetextresponse/freetextresponse.py:101
+#: freetextresponse/freetextresponse.py:101
 msgid ""
 "This will display other student responses to the student after they submit "
 "their response."
@@ -55,10 +56,6 @@ msgstr "Nome de exibição"
 #: freetextresponse/freetextresponse.py:115
 #: build/lib.linux-x86_64-2.7/freetextresponse/freetextresponse.py:115
 msgid "This is the title for this question type"
-msgstr ""
-
-#: freetextresponse/freetextresponse.py:117
-msgid "Free-text Response"
 msgstr ""
 
 #: freetextresponse/freetextresponse.py:121
@@ -97,89 +94,76 @@ msgid ""
 "problem"
 msgstr ""
 
-#: freetextresponse/freetextresponse.py:151
 #: build/lib.linux-x86_64-2.7/freetextresponse/freetextresponse.py:151
+#: freetextresponse/freetextresponse.py:151
 msgid "Maximum Word Count"
 msgstr "Limite máximo de palavras"
 
-#: freetextresponse/freetextresponse.py:153
 #: build/lib.linux-x86_64-2.7/freetextresponse/freetextresponse.py:153
+#: freetextresponse/freetextresponse.py:153
 msgid "This is the maximum number of words allowed for this question"
 msgstr ""
 
-#: freetextresponse/freetextresponse.py:161
 #: build/lib.linux-x86_64-2.7/freetextresponse/freetextresponse.py:161
+#: freetextresponse/freetextresponse.py:161
 msgid "Minimum Word Count"
 msgstr ""
 
-#: freetextresponse/freetextresponse.py:163
 #: build/lib.linux-x86_64-2.7/freetextresponse/freetextresponse.py:163
+#: freetextresponse/freetextresponse.py:163
 msgid "This is the minimum number of words required for this question"
 msgstr ""
 
-#: freetextresponse/freetextresponse.py:171
 #: build/lib.linux-x86_64-2.7/freetextresponse/freetextresponse.py:171
+#: freetextresponse/freetextresponse.py:171
 msgid "Prompt"
 msgstr "Tema"
 
-#: freetextresponse/freetextresponse.py:173
 #: build/lib.linux-x86_64-2.7/freetextresponse/freetextresponse.py:173
+#: freetextresponse/freetextresponse.py:173
 msgid "This is the prompt students will see when asked to enter their response"
 msgstr ""
 
-#: freetextresponse/freetextresponse.py:176
-msgid "Please enter your response within this text area"
-msgstr ""
-
-#: freetextresponse/freetextresponse.py:181
 #: build/lib.linux-x86_64-2.7/freetextresponse/freetextresponse.py:181
+#: freetextresponse/freetextresponse.py:181
 msgid "Submission Received Message"
 msgstr ""
 
-#: freetextresponse/freetextresponse.py:183
 #: build/lib.linux-x86_64-2.7/freetextresponse/freetextresponse.py:183
+#: freetextresponse/freetextresponse.py:183
 msgid "This is the message students will see upon submitting their response"
 msgstr ""
 
-#: freetextresponse/freetextresponse.py:186
-msgid "Your submission has been received"
-msgstr ""
-
-#: freetextresponse/freetextresponse.py:190
 #: build/lib.linux-x86_64-2.7/freetextresponse/freetextresponse.py:190
+#: freetextresponse/freetextresponse.py:190
 msgid "Weight"
 msgstr "Peso"
 
-#: freetextresponse/freetextresponse.py:192
 #: build/lib.linux-x86_64-2.7/freetextresponse/freetextresponse.py:192
+#: freetextresponse/freetextresponse.py:192
 msgid "This assigns an integer value representing the weight of this problem"
 msgstr ""
 
-#: freetextresponse/freetextresponse.py:200
 #: build/lib.linux-x86_64-2.7/freetextresponse/freetextresponse.py:200
+#: freetextresponse/freetextresponse.py:200
 msgid "Draft Received Message"
 msgstr ""
 
-#: freetextresponse/freetextresponse.py:202
 #: build/lib.linux-x86_64-2.7/freetextresponse/freetextresponse.py:202
+#: freetextresponse/freetextresponse.py:202
 msgid "This is the message students will see upon submitting a draft response"
 msgstr ""
 
-#: freetextresponse/freetextresponse.py:206
-msgid ""
-"Your answers have been saved but not graded. Click \"Submit\" to grade them."
-msgstr ""
-
-#: freetextresponse/freetextresponse.py:394
 #: build/lib.linux-x86_64-2.7/freetextresponse/freetextresponse.py:394
+#: freetextresponse/freetextresponse.py:398
 #, python-brace-format
 msgid "Your response must be between {min} and {max} word."
 msgid_plural "Your response must be between {min} and {max} words."
 msgstr[0] ""
 msgstr[1] ""
 
-#: freetextresponse/freetextresponse.py:416
 #: build/lib.linux-x86_64-2.7/freetextresponse/freetextresponse.py:416
+#: freetextresponse/freetextresponse.py:420
 #, python-brace-format
 msgid "Invalid Word Count. {word_count_message}"
 msgstr ""
@@ -200,6 +184,7 @@ msgid_plural "{score_string}/{weight} points"
 msgstr[0] "{score_string}/{weight} ponto"
 msgstr[1] "{score_string}/{weight} pontos"
 
+
 #: freetextresponse/freetextresponse.py:546
 #: build/lib.linux-x86_64-2.7/freetextresponse/freetextresponse.py:546
 #, python-brace-format
@@ -208,35 +193,60 @@ msgid_plural "You have used {count_attempts} of {max_attempts} submissions"
 msgstr[0] ""
 msgstr[1] ""
 
-#: freetextresponse/templates/freetextresponse_view.html:22
-#: freetextresponse/templates/freetextresponse_view.html:25
 #: build/lib.linux-x86_64-2.7/freetextresponse/templates/freetextresponse_view.html:22
 #: build/lib.linux-x86_64-2.7/freetextresponse/templates/freetextresponse_view.html:25
+#: freetextresponse/templates/freetextresponse_view.html:21
+#: freetextresponse/templates/freetextresponse_view.html:24
 msgid "Checking..."
 msgstr ""
 
-#: freetextresponse/templates/freetextresponse_view.html:22
-#: freetextresponse/templates/freetextresponse_view.html:23
 #: build/lib.linux-x86_64-2.7/freetextresponse/templates/freetextresponse_view.html:22
 #: build/lib.linux-x86_64-2.7/freetextresponse/templates/freetextresponse_view.html:23
+#: freetextresponse/templates/freetextresponse_view.html:21
+#: freetextresponse/templates/freetextresponse_view.html:22
 msgid "Submit"
 msgstr "Enviar"
 
-#: freetextresponse/templates/freetextresponse_view.html:25
-#: freetextresponse/templates/freetextresponse_view.html:26
 #: build/lib.linux-x86_64-2.7/freetextresponse/templates/freetextresponse_view.html:25
 #: build/lib.linux-x86_64-2.7/freetextresponse/templates/freetextresponse_view.html:26
+#: freetextresponse/templates/freetextresponse_view.html:24
+#: freetextresponse/templates/freetextresponse_view.html:25
 msgid "Save"
 msgstr "Salvar"
 
-#: freetextresponse/templates/freetextresponse_view.html:34
+#: freetextresponse/freetextresponse.py:117
+msgid "Free-text Response"
+msgstr ""
+
+#: freetextresponse/freetextresponse.py:176
+msgid "Please enter your response within this text area"
+msgstr ""
+
+#: freetextresponse/freetextresponse.py:186
+msgid "Your submission has been received"
+msgstr "Seu envio foi recebidas"
+
+#: freetextresponse/freetextresponse.py:206
+msgid ""
+"Your answers have been saved but not graded. Click \"Submit\" to grade them."
+msgstr ""
+"Suas respostas foram salvas mas não avaliadas. Clique \"Enviar\"  para "
+"corrigi-las."
+
+#: freetextresponse/templates/freetextresponse_view.html:15
+msgid ""
+"Allow my response to possibly be visible by other learners after submitting "
+"their response"
+msgstr ""
+
+#: freetextresponse/templates/freetextresponse_view.html:33
 msgid "Hide"
 msgstr "Ocultar"
 
-#: freetextresponse/templates/freetextresponse_view.html:35
+#: freetextresponse/templates/freetextresponse_view.html:34
 msgid "Submissions by others"
 msgstr ""
 
-#: freetextresponse/templates/freetextresponse_view.html:37
+#: freetextresponse/templates/freetextresponse_view.html:36
 msgid "No responses to show at this time"
 msgstr ""

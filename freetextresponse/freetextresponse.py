@@ -571,7 +571,7 @@ class FreeTextResponse(
         """
         result = ''
         if self._word_count_valid():
-            result = self.submitted_message
+            result = unicode(self.submitted_message)
         return result
 
     def _get_user_alert(self, ignore_attempts=False):
@@ -641,7 +641,7 @@ class FreeTextResponse(
             'used_attempts_feedback': self._get_used_attempts_feedback(),
             'nodisplay_class': self._get_nodisplay_class(),
             'submitted_message': '',
-            'user_alert': self.saved_message,
+            'user_alert': unicode(self.saved_message),
             'visibility_class': self._get_indicator_visibility_class(),
         }
         return result
